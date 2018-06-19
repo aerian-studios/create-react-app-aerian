@@ -21,3 +21,21 @@ These opinions are emplaced by webpack config, npm scripts and our hygen compone
 * Typescript: we believe typescript helps create well documented, reasonable applications
 * Storybooks: we think storybooks allows component encapsulation and helps reason about styling
 * CSS Modules: we think that, combined with the "3 types of styles" philosphy, this helps with extensibility and encapsulation
+
+## Create components
+
+```sh
+hygen component new --name my-component
+
+# or
+
+hygen component new --class --name my-class-component
+```
+
+This will create all the files for your component; the test, storybook, readme, css module, typings in a folder in `src/components`
+
+## Run Storybooks
+
+```sh
+npm run storybooks
+```
