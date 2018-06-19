@@ -12,6 +12,8 @@ cd my-app/
 npm start
 ```
 
+Where `my-app` is the name of the application you want to use.
+
 ## Opinions
 
 These opinions are emplaced by webpack config, npm scripts and our hygen component generator
