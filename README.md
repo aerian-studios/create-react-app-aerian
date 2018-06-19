@@ -1,4 +1,4 @@
-# `react-scripts-aerian-ts` [![npm version]
+# `react-scripts-aerian-ts`
 
 Create React apps (with Typescript) and an opinionated with no build configuration. Based heavily on [the excellent create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript).
 
