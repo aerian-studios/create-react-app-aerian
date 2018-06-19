@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-aerian-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":
     "Configuration and scripts for Create React App. Based heavily on wonk/create-react-app-typescript",
   "repository": "aerian-studios/create-react-app-aerian",

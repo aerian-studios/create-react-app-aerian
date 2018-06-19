@@ -8,7 +8,7 @@ module.exports = {
         loaders: ["style-loader", "css-loader", "sass-loader"],
         include: path.resolve(__dirname, "../")
       },
-      { test: /\.ts$/, loader: "ts-loader" }
+      { test: /\.[t|j]sx?$/, loader: "ts-loader" }
     ]
   }
 };

@@ -110,7 +110,6 @@ module.exports = function(
   // Install dev dependencies
   const types = [
     "@types/node",
-    "@types/react",
     "@types/react-dom",
     "@types/jest",
     "typescript",
