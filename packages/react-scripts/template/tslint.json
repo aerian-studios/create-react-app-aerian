@@ -1,0 +1,6 @@
+{
+  "extends": ["tslint-config-aerian"],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+  }
+}

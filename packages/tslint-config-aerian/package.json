@@ -1,0 +1,54 @@
+{
+  "_from": "tslint-config-aerian@^1.0.2",
+  "_id": "tslint-config-aerian@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-z11UUqe+IVOWfYFHmTnEnLPjaY8=",
+  "_location": "/tslint-config-aerian",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "tslint-config-aerian@^1.0.2",
+    "name": "tslint-config-aerian",
+    "escapedName": "tslint-config-aerian",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tslint-config-aerian/-/tslint-config-aerian-1.0.2.tgz",
+  "_shasum": "cf5d5452a7be2153967d81479939c49cb3e3698f",
+  "_spec": "tslint-config-aerian@^1.0.2",
+  "_where": "/Users/sunya/Sites/aerian-scripts-ts",
+  "author": {
+    "name": "Matt Kane",
+    "email": "ascorbic@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aerian-studios/tslint-config-aerian/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslint-config-prettier": "^1.12.0",
+    "tslint-consistent-codestyle": "^1.13.0",
+    "tslint-eslint-rules": "^5.2.0",
+    "tslint-react": "^3.6.0"
+  },
+  "deprecated": false,
+  "description": "This is a shareable TSLint configuration that enforces a strict and opinionated TypeScript coding style. Formatting is based on Prettier, and tslint:recommended but also includes rules from tslint-react, tslint-eslint-rules and tslint-consistent-codestyle.",
+  "homepage": "https://github.com/aerian-studios/tslint-config-aerian#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "tslint-config-aerian",
+  "peerDependencies": {
+    "prettier": ">1.0.0",
+    "tslint": ">5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aerian-studios/tslint-config-aerian.git"
+  },
+  "version": "1.0.2"
+}
