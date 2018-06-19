@@ -39,3 +39,10 @@ This will create all the files for your component; the test, storybook, readme, 
 ```sh
 npm run storybooks
 ```
+
+## Changelog
+
+| npm version | Description                                                                                                                                                                                 | Date       |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| 0.0.3       | **1.** Removed `@types/react` as these were conflicting with those in `@types/react-dom`. **2.** Adjusted storybook webpack config and tslint to better deal with storybooks and typescript | 2018-06-19 |
+| 0.0.4       | **1.** Added `@types/storybook__react` and `react-test-renderer` with typings **2.** Added more to `App.tsx`                                                                                | 2018-06-19 |

@@ -117,11 +117,14 @@ module.exports = function(
     "@storybook/addon-links",
     "@storybook/addons",
     "@storybook/react",
+    "@types/storybook__react",
     "husky",
     "hygen-react-typescript",
     "lint-staged",
     "prettier",
-    "tslint-config-aerian"
+    "tslint-config-aerian",
+    "react-test-renderer",
+    "@types/react-test-renderer"
   ];
 
   console.log(

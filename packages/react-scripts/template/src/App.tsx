@@ -18,8 +18,8 @@ class App extends React.Component {
           Use <code>hygen component new --name MySFCComponent</code> to make a
           new Stateless function component (default/preferred), or
           <code>hygen component new --class --name MyClassComponent</code> to
-          make a Class based component. See http://www.hygen.io/ and
-          https://github.com/aerian-studios/hygen-react-typescript for more
+          make a Class based component.</p><p>See <a href="http://www.hygen.io/" target="_blank" rel="no-follow no-referer">http://www.hygen.io/</a> and
+          <a href="http://www.hygen.io/" target="_blank" rel="no-follow no-referer">https://github.com/aerian-studios/hygen-react-typescript</a> for more
           info.
         </p>
       </div>
