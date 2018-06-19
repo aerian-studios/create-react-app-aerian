@@ -7,7 +7,7 @@ Create React apps (with Typescript) and an opinionated with no build configurati
 ```sh
 npm install -g create-react-app
 
-create-react-app my-app --scripts-version=eact-scripts-aerian-ts
+create-react-app my-app --scripts-version=react-scripts-aerian-ts
 cd my-app/
 npm start
 ```
