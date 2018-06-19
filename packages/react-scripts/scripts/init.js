@@ -40,7 +40,14 @@ module.exports = function(
     start: "react-scripts-ts start",
     build: "react-scripts-ts build",
     test: "react-scripts-ts test --env=jsdom",
-    eject: "react-scripts-ts eject"
+    eject: "react-scripts-ts eject",
+    storybook: "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    precommit: "lint-staged"
+  };
+
+  appPackage["lint-staged"] = {
+    "src/**/*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
   };
 
   fs.writeFileSync(
