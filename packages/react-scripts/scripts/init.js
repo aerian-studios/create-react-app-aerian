@@ -39,7 +39,7 @@ module.exports = function(
   appPackage.scripts = {
     start: "react-scripts-ts start",
     build: "react-scripts-ts build",
-    test: "react-scripts-ts test --env=jsdom",
+    test: "react-scripts-ts test --env=jsdom --watchAll",
     eject: "react-scripts-ts eject",
     storybook: "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -47,7 +47,10 @@ module.exports = function(
   };
 
   appPackage["lint-staged"] = {
-    "src/**/*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
+    "src/**/*.{ts,tsx,js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   };
 
   fs.writeFileSync(
@@ -110,7 +113,6 @@ module.exports = function(
   // Install dev dependencies
   const types = [
     "@types/node",
-    "@types/react-dom",
     "@types/jest",
     "typescript",
     "@storybook/addon-actions",
